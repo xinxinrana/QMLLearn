@@ -1,5 +1,9 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>img/rocket.png</file>
+        <file>Button.qml</file>
+        <file>ClickableImage.qml</file>
+        <file>ColorSquare.qml</file>
     </qresource>
 </RCC>
