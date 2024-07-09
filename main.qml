@@ -53,7 +53,7 @@ Window {
         y: 200
         width: 100
         // text: "这是一段中文"
-        text: "This is a passage in English"
+        text: "Test English"
         color: "#000000"
         font.family: "Consolas"
         font.pixelSize: 24
@@ -65,5 +65,39 @@ Window {
 
         // 自动换行
         wrapMode: Text.WordWrap
+
+        // 文字外框
+        style: Text.Sunken
+        styleColor: "#FF4444"
+    }
+
+    Item {
+        id: textRow
+        x: 100
+        y: 300
+        Column {
+            Text {
+                font.pointSize: 24
+                text: "Normal"
+            }
+            Text {
+                font.pointSize: 24
+                text: "Raised"
+                style: Text.Raised
+                styleColor: "#AAAAAA"
+            }
+            Text {
+                font.pointSize: 24
+                text: "Outline"
+                style: Text.Outline
+                styleColor: "red"
+            }
+            Text {
+                font.pointSize: 24
+                text: "Sunken"
+                style: Text.Sunken
+                styleColor: "#AAAAAA"
+            }
+        }
     }
 }
