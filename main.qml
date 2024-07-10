@@ -12,6 +12,13 @@ Window {
         console.trace()
     }
 
+    Component.onCompleted: {
+        console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+        console.trace()
+        console.error("错误消息")
+        console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+    }
+
     Item {
         id: module1
         visible: false
