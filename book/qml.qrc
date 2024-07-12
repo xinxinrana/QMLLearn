@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>TLineEdit.qml</file>
+        <file>FluidElements.qml</file>
+        <file>FoucsLearn.qml</file>
+        <file>ColorRect.qml</file>
+    </qresource>
+</RCC>
