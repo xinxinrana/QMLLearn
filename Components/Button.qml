@@ -1,5 +1,6 @@
-import QtQuick 2.15
+import QtQuick 2.12
 
+// 普通按钮
 Item {
     id: root
     property bool logEnable: true

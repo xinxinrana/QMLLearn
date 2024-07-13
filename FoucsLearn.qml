@@ -1,5 +1,8 @@
-import QtQuick 2.0
+import QtQuick 2.12
+import "./Components"
 
+
+// 焦点学习
 Item {
     x: 100
     y: 100

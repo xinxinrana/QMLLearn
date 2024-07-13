@@ -1,5 +1,6 @@
-import QtQuick 2.15
+import QtQuick 2.12
 
+// 默认颜色矩形
 Rectangle {
 
     // 枚举模拟

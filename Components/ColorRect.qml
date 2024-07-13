@@ -1,7 +1,8 @@
 import QtQuick 2.0
 
+// 默认颜色矩形
 Rectangle {
-    property var colorEnum: ["#303", "#330", "#033"]
+    property var colorEnum: ["#909", "#990", "#099", "#9f85ff"]
 
     width: 40
     height: 40

@@ -2,8 +2,17 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>img/rocket.png</file>
-        <file>Button.qml</file>
-        <file>ClickableImage.qml</file>
-        <file>ColorSquare.qml</file>
+        <file>EasingCurvesLearn.qml</file>
+        <file>FluidElements.qml</file>
+        <file>FoucsLearn.qml</file>
+        <file>Components/Button.qml</file>
+        <file>Components/ClickableImage.qml</file>
+        <file>Components/ColorRect.qml</file>
+        <file>Components/ColorSquare.qml</file>
+        <file>Components/TLineEdit.qml</file>
+        <file>LayoutLearn.qml</file>
+        <file>BaseLearn.qml</file>
+        <file>StateLearn.qml</file>
     </qresource>
+    <qresource prefix="/Components"/>
 </RCC>
