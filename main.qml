@@ -29,6 +29,7 @@ Window {
         //    FoucsLearn{}
         //    FluidElements{}
         //    EasingCurvesLearn {}
-        StateLearn {}
+        //    StateLearn {}
+        ModelViewDelegateLearn {}
     }
 }

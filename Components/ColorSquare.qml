@@ -1,6 +1,6 @@
 import QtQuick 2.12
 
-// 默认颜色矩形
+// 默认颜色文字矩形
 Rectangle {
 
     // 枚举模拟
@@ -9,7 +9,7 @@ Rectangle {
     property alias text: textItem.text
 
     width: 48
-    height: 48
+    height: width
 
     color: colorEnum[randomNumber]
     border.color: Qt.lighter(color)

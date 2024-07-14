@@ -1,4 +1,4 @@
-import QtQuick 2.0
+import QtQuick 2.12
 
 // 默认颜色矩形
 Rectangle {
@@ -7,6 +7,7 @@ Rectangle {
     width: 40
     height: 40
     color: colorEnum[0]
+    opacity: 0.8
 
     signal clicked
 

@@ -21,7 +21,6 @@ Item {
         text: "value"
         wrapMode: Text.Wrap
         anchors.centerIn: parent
-        // width: this.width < parent.width ? 0 : parent.width
     }
 
     MouseArea {
@@ -29,10 +28,12 @@ Item {
         onClicked: {
             if (logEnable)
                 console.log(parent, parent.text)
-
-            if (textItem.width > this.width)
-                textItem.width = this.width
             root.clicked()
         }
+    }
+
+    onTextChanged: {
+        if (textItem.width > this.width)
+            textItem.width = this.width
     }
 }

@@ -13,6 +13,8 @@
         <file>LayoutLearn.qml</file>
         <file>BaseLearn.qml</file>
         <file>StateLearn.qml</file>
+        <file>Components/ColorCircle.qml</file>
+        <file>ModelViewDelegateLearn.qml</file>
     </qresource>
     <qresource prefix="/Components"/>
 </RCC>
