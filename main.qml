@@ -24,12 +24,13 @@ Window {
         x: 100
         y: 100
 
-        //    BaseLearn{}
-        //    LayoutLearn{}
-        //    FoucsLearn{}
-        //    FluidElements{}
-        //    EasingCurvesLearn {}
-        //    StateLearn {}
-        ModelViewDelegateLearn {}
+        // BaseLearn{}
+        // LayoutLearn{}
+        // FoucsLearn{}
+        // FluidElements{}
+        // EasingCurvesLearn {}
+        // StateLearn {}
+        // ModelViewDelegateLearn {}
+        JsLearn {}
     }
 }

@@ -15,6 +15,7 @@
         <file>StateLearn.qml</file>
         <file>Components/ColorCircle.qml</file>
         <file>ModelViewDelegateLearn.qml</file>
+        <file>JsLearn.qml</file>
     </qresource>
     <qresource prefix="/Components"/>
 </RCC>
