@@ -16,7 +16,7 @@ Item {
         }
         ColorSquare {
             color: colorEnum[1]
-            width: this.width + 20
+            width: width + 20
         }
         ColorSquare {
             color: colorEnum[2]
@@ -86,6 +86,22 @@ Item {
                 // anchors.bottom: parent.bottom
                 anchors.margins: 10
                 text: "×"
+            }
+        }
+    }
+
+    ResizableRectangle {
+        x: 300
+        y: 300
+
+        Flow {
+            anchors.fill: parent
+            Repeater {
+                model: 16
+                ColorSquare {
+                    color: colorEnum[index % 3]
+                    text: index
+                }
             }
         }
     }

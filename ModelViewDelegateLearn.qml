@@ -7,16 +7,16 @@ Item {
 
     // 这是不 ok 的,因为 child.objectName 一般都是空的
     function findChild(rootItem, childName) {
-        //        console.log(rootItem.children.length)
-        //        console.log(rootItem.children[0].objectName)
+        // console.log(rootItem.children.length)
+        // console.log(rootItem.children[0].objectName)
         for (var pro in (rootItem.children[0])) {
-            //            if (child.objectName === childName) {
-            //                console.log("find", childName)
-            //                return child
-            //            }
+            // if (child.objectName === childName) {
+            //     console.log("find", childName)
+            //     return child
+            // }
             console.log(pro, rootItem.children[0][pro])
         }
-        //        console.log("find err")
+        // console.log("find err")
     }
 
     Component {

@@ -25,12 +25,12 @@ Window {
         y: 100
 
         // BaseLearn{}
-        // LayoutLearn{}
+        LayoutLearn{}
         // FoucsLearn{}
         // FluidElements{}
         // EasingCurvesLearn {}
         // StateLearn {}
         // ModelViewDelegateLearn {}
-        JsLearn {}
+        // JsLearn {}
     }
 }
